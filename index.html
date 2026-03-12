@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antigravity | The Future of Agentic Development</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <canvas id="starfield-canvas"></canvas>
+
+    <header class="main-nav">
+        <div class="nav-container">
+            <div class="brand">
+                <svg class="g-logo" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" fill="none" stroke="#4285F4" stroke-width="2"/></svg>
+                <span class="product-name">Antigravity</span>
+            </div>
+            <nav class="nav-links">
+                <div class="nav-item">Product</div>
+                <div class="nav-item">Capabilities</div>
+                <div class="nav-item">Use Cases</div>
+                <div class="nav-item">Pricing</div>
+                <div class="nav-item">Blog</div>
+            </nav>
+            <div class="nav-cta">
+                <button class="btn-download">Download v1.4 <span class="shimmer"></span></button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-tag">
+                <span class="pulse-icon"></span>
+                <span>Google Antigravity AI</span>
+            </div>
+            <h1 class="hero-title">Experience liftoff with the <br> <span class="text-gradient">next-generation IDE</span></h1>
+            <p class="hero-description">
+                A professional-grade environment where AI doesn't just suggest code—it orchestrates your entire development lifecycle across the editor, terminal, and browser.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn-primary">Download for MacOS</button>
+                <button class="btn-secondary">Explore use cases</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="showcase">
+        <div class="container">
+            
+            <div class="feature-block" id="ide-core">
+                <div class="feature-info">
+                    <span class="f-category">CORE SYSTEM</span>
+                    <h2 class="f-title">An AI IDE Core</h2>
+                    <p class="f-text">The Antigravity Editor offers tab autocompletion, natural language commands, and a configurable, context-aware agent that lives in your workspace.</p>
+                    <div class="f-capabilities">
+                        <div class="cap-item"><span>✦</span> Semantic Context</div>
+                        <div class="cap-item"><span>✦</span> Neural Debugging</div>
+                    </div>
+                </div>
+                <div class="feature-visual">
+                    <div class="ide-frame glass-morph">
+                        <div class="ide-header">
+                            <div class="dots"><span class="d-r"></span><span class="d-y"></span><span class="d-g"></span></div>
+                            <div class="ide-tab">LoginButton.tsx</div>
+                        </div>
+                        <div class="ide-code">
+                            <pre><code id="live-code-stream"></code></pre>
+                            <div class="agent-interaction">
+                                <div class="agent-avatar">A</div>
+                                <div class="agent-bubble">Analyzing component hierarchy...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feature-block reverse">
+                <div class="feature-info">
+                    <span class="f-category">AGENTS</span>
+                    <h2 class="f-title">Cross-surface Agents</h2>
+                    <p class="f-text">Synchronized agentic control across your editor, terminal, and browser for powerful, autonomous development workflows.</p>
+                </div>
+                <div class="feature-visual">
+                    <div class="plan-card glass-morph">
+                        <div class="plan-header">
+                            <span class="plan-icon">📋</span>
+                            <span>Implementation Plan</span>
+                        </div>
+                        <div class="plan-body">
+                            <h3 class="plan-goal">Goal</h3>
+                            <p>Integrate the <span class="highlight">GravityProfile</span> component into the main Space Flight Booking page.</p>
+                            <div class="plan-step">
+                                <div class="step-check"></div>
+                                <div>
+                                    <strong>Step 1: Component Discovery</strong>
+                                    <p>Scan @/components/gravity for existing exports.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="blog-feed">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest Blogs</h2>
+                <button class="btn-ghost">View all</button>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-card" style="--card-color: #4285f4">
+                    <div class="blog-thumb mesh-blue">Gemini 3.1 Pro</div>
+                    <div class="blog-content">
+                        <h3>Gemini 3.1 Pro in Google Antigravity</h3>
+                    </div>
+                </div>
+                <div class="blog-card" style="--card-color: #34a853">
+                    <div class="blog-thumb mesh-green">Gemini 3 Flash</div>
+                    <div class="blog-content">
+                        <h3>Gemini 3 Flash in Google Antigravity</h3>
+                    </div>
+                </div>
+                <div class="blog-card" style="--card-color: #000">
+                    <div class="blog-thumb mesh-black">🍌 Nano Banana</div>
+                    <div class="blog-content">
+                        <h3>Nano Banana Pro in Google Antigravity</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="f-logo">Google</div>
+                <p>© 2026 Google Antigravity</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-col">
+                    <h4>Product</h4>
+                    <a href="#">IDE Core</a>
+                    <a href="#">Agent Sync</a>
+                    <a href="#">Pricing</a>
+                </div>
+                <div class="link-col">
+                    <h4>Resources</h4>
+                    <a href="#">Docs</a>
+                    <a href="#">API</a>
+                    <a href="#">Support</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
